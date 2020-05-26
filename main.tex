@@ -65,7 +65,7 @@
 \begin{frontmatter}
   \title{Some Results for Paths in Trees and B1-EPG Graphs}
   
- \title{This is a Paper Template}
+%  \title{This is a Paper Template}
  	\author{Liliana Alc\'{o}n$^{1}$}
  	\author{Mar\'{i}a P\'{i}a Mazzoleni$^{1}$}
  	\author{Tanilson Dias dos Santos$^{2,3}$}
@@ -74,10 +74,10 @@
 	
 
 \begin{abstract}
-This research presents as a main result the prove that every Chordal $B_1$-EPG graph is simultaneously in the graph classes VPT and EPT. In addition, we  describe structures that are always present in graphs that do not admit a Helly $B_1$-EPG representation and thus we give some sets of subgraphs that delimit Helly subfamilies.   
-In particular, this paper presents characterizations for some non-trivial families of graphs properly contained in Helly $B_1$-EPG, namely Bipartite, Block, Cactus and Line of Bipartite  graphs. 
+This research presents as a main result the prove that every Chordal $B_1$-EPG graph is simultaneously in the graph classes VPT and EPT. In addition, we  describe structures that are always present in graphs that do not admit a Helly-$B_1$-EPG representation and thus we give some sets of subgraphs that delimit Helly subfamilies.   
+In particular, this paper presents characterizations for some non-trivial families of graphs properly contained in Helly-$B_1$ EPG, namely Bipartite, Block, Cactus and Line of Bipartite  graphs. 
 \end{abstract}
-
+ 
 \begin{keyword}
 %% keywords here, in the form: keyword \sep keyword
 Edge-intersection of paths on a grid \sep Edge-intersection graph of paths in a tree  \sep Helly property \sep Intersection graphs \sep Single bend paths \sep Vertex-intersection graph of paths in a tree.
@@ -91,8 +91,6 @@ Edge-intersection of paths on a grid \sep Edge-intersection graph of paths in a 
 
 \section{Introduction}
 
-
- 
 Models based on paths intersection  may consider  intersections by vertices or   intersections by edges.  Cases where the paths are hosted on a tree  appear first in the literature, see for instance \cite{gavril1978recognition, golumbic1985edge, golumbic1985}.  Representations using paths on a grid were considered later, see  \cite{golumbic2009,golumbic2013, golumbic2013intersection}. %More details on each intersection model will be given in the following text.
 
  Let $P$ be a family of paths on a host tree $T$ . Two types of intersection graphs from the pair $<P,T>$ are defined, namely VPT and EPT graphs.
@@ -118,12 +116,12 @@ relation between  VPT, EPT and $B_1$-EPG graph classes.
 
 
  A collection  of sets satisfies the \textit{Helly property} when every pair-wise intersecting sub-collection  has at least one common element. When this property
- is satisfied by the set of vertices (edges) of the paths used in a representation, we get a Helly representation.  Helly $B_1$-EPG graphs were studied
+ is satisfied by the set of vertices (edges) of the paths used in a representation, we get a Helly representation.  Helly-$B_1$-EPG graphs were studied
  in \cite{bornstein2019complexity}.                                     
-It is known that not every $B_1$-EPG graph admits a Helly $B_1$-EPG representation. We are interested in determining the subgraphs that make
+It is known that not every $B_1$-EPG graph admits a Helly-$B_1$-EPG representation. We are interested in determining the subgraphs that make
 $B_1$-EPG graphs do not admit a Helly representation. In the present work, we describe some structures that will be present in any such subgraph,
-and, in addition, we present new  Helly $B_1$-EPG  subclasses.
-Moreover,  we  describe new  Helly $B_1$-EPG  subclasses % that have Helly property 
+and, in addition, we present new  Helly-$B_1$ EPG  subclasses.
+Moreover,  we  describe new  Helly-$B_1$ EPG  subclasses % that have Helly property 
 and we give some sets of subgraphs that delimit Helly subfamilies.   
 \section{Definitions and Technical Results}
 
@@ -182,7 +180,7 @@ Let $G$ be a $B_1$-EPG graph. If $G$ is diamond-free, then in any $B_1$-EPG repr
 \end{lema}
 
 \begin{pf}Let $K$ be a maximal clique which is a claw-clique in a given $B_1$-EPG representation of $G$. Then there exist three vertices of $K$ which induce a claw-clique $K'$ on
-the same claw of the grid than $K$. Assume, in order to derive a contradiction, that a vertex $v\notin K$ covers some edges of the claw. Clearly, $v$ must  cover
+the same claw of the grid than $K$. Assume, in order to derive a contradiction, that a vertex $v\notin K$ covers some edge of the claw. Clearly, $v$ must  cover
 only one of such edges. Therefore $v$ and the vertices of $K'$ induce a diamond, a contradiction. $\square$
 \end{pf}
 
@@ -196,7 +194,7 @@ Following \cite{golumbic2009}, we say that the four paths form
 \item a \emph{true pie} %is a representation where each $P_i$ of $ \mathcal{P} $ has a bend at $b$.
 when each one has a bend at $b$, Figure~\ref{fig:piesInGrid}(b); and 
 \item a \emph {false pie} when exactly two of the paths %$P_i$  do not 
-bend at $b$ and they do not share an edge of the $4$-star, FigureFigure~\ref{fig:piesInGrid}(c). %contain bends, while the remaining two do not share an edge. 
+bend at $b$ and they do not share an edge of the $4$-star, Figure~\ref{fig:piesInGrid}(c). %contain bends, while the remaining two do not share an edge. 
 
 \input{includes/include-img/pies.tex}
 
@@ -247,16 +245,16 @@ A graph $G$ is \textit{k-colorable} if its vertices can be colored with at most 
 
 
 
-\section{Subclasses of Helly $B_1$-EPG Graphs}
+\section{Subclasses of Helly-$B_1$-EPG Graphs}
 
-In this section, we delimit some  subclasses of $B_1$-EPG graphs that admit a Helly $B_1$-EPG representation. It is known that $B_1$-EPG and Helly $B_1$-EPG 
+In this section, we delimit some  subclasses of $B_1$-EPG graphs that admit a Helly-$B_1$-EPG representation. It is known that $B_1$-EPG and Helly-$B_1$ EPG 
 are hereditary classes, so they can  be characterized by forbidden structures. 
 In both cases, finding the list of minimal forbidden induced subgraphs are challenging open problems.
 Taking a step towards solving
-those problems,  we describe a few structures % that  provide a $B_1$-EPG graph does not admit a Helly $B_1$-EPG representation, that is it is not a  Helly $B_1$-EPG graph. 
+those problems,  we describe a few structures % that  provide a $B_1$-EPG graph does not admit a Helly-$B_1$ EPG representation, that is it is not a  Helly-$B_1$ EPG graph. 
 at least one of which will  necessarily be present in  any $B_1$-EPG graph that does not admit a Helly representation. 
 In addition,
-we show that the well known families of Block graphs, Cactus and Line of Bipartite graphs are totally contained in the class Helly $B_1$-EPG.
+we show that the well known families of Block graphs, Cactus and Line of Bipartite graphs are totally contained in the class Helly-$B_1$ EPG.
 
 
 Let $S_{3}, S_{3'}, S_{3''}$ and $ C_{4}$ be the graphs depicted in Figure \ref{fig:proibidos}. 
@@ -264,11 +262,11 @@ Let $S_{3}, S_{3'}, S_{3''}$ and $ C_{4}$ be the graphs depicted in Figure \ref{
 
 \begin{teo}
 \label{lem:chordalDiamondFree}
-Let $G$ be a $B_1$-EPG graph. If $G$ is  $\{S_{3}, S_{3'}, S_{3''}, C_{4}\}$-free then $G$  is a Helly $B_1$-EPG graph.
+Let $G$ be a $B_1$-EPG graph. If $G$ is  $\{S_{3}, S_{3'}, S_{3''}, C_{4}\}$-free then $G$  is a Helly-$B_1$-EPG graph.
 \end{teo}
 
 \begin{pf}
-If $G$ is not a Helly $B_1$-EPG graph, then in each $B_1$-EPG representation of $G$, there is at least one clique that is represented as claw-clique and no as edge-clique. Consider any $B_1$-EPG  representation of $G$  and let $K$ be a maximal clique  which is represented as a claw-clique. Assume, w.l.o.g,  $K$ is on a claw of the grid with base $[x_0, x_2]\times\{y_0\}$ and center $C = (x_1, y_0)$. Denote by  $\mathcal{P}_K$ the set of paths corresponding to the vertices of $K$.  By Lemma~\ref{lem:lemaBRies2009},  %(see~\cite{ries2009})
+If $G$ is not a Helly-$B_1$-EPG graph, then in each $B_1$-EPG representation of $G$, there is at least one clique that is represented as claw-clique and no as edge-clique. Consider any $B_1$-EPG  representation of $G$  and let $K$ be a maximal clique  which is represented as a claw-clique. Assume, w.l.o.g,  $K$ is on a claw of the grid with base $[x_0, x_2]\times\{y_0\}$ and center $C = (x_1, y_0)$. Denote by  $\mathcal{P}_K$ the set of paths corresponding to the vertices of $K$.  By Lemma~\ref{lem:lemaBRies2009},  %(see~\cite{ries2009})
 %no path $P_w$ for $w\notin K$ covers 
 the grid segment $[x_0, x_2]\times\{y_0\}$ is covered only by vertices of $K$. % because $G$ is $C_4$-free
 
@@ -301,15 +299,15 @@ Notice that any bull-free graph is $\{S_{3}, S_{3'}, S_{3''}\}$-free, so our pre
 %--------------------------
 
 
-Next theorem has as consequence the identification of several graph classes where the existence of a $B_1$-EPG representation ensures the existence of a Helly $B_1$-EPG representation.
+Next theorem has as consequence the identification of several graph classes where the existence of a $B_1$-EPG representation ensures the existence of a Helly-$B_1$-EPG representation.
 
 
 \begin{teo} \label{lem:b1DiamondFree}
- If $G$ is a $B_1$-EPG and diamond-free graph then $G$ is a Helly $B_1$-EPG graph.
+ If $G$ is a $B_1$-EPG and diamond-free graph then $G$ is a Helly-$B_1$-EPG graph.
  \end{teo}
 
 \begin{pf}
-If $G$ is not a Helly $B_1$-EPG graph, then in each $B_1$-EPG representation of $G$, there is at least one clique that is represented as claw-clique and no as edge-clique.  Consider any $B_1$-EPG  representation of $G$  and let $K$ be a maximal clique  which is represented as a claw-clique. Assume, w.l.o.g,  $K$ is on a claw of the grid with base $[x_0, x_2]\times\{y_0\}$ and center $C = (x_1, y_0)$. Denote by  $\mathcal{P}_K$ the set of paths corresponding to the vertices of $K$. 
+If $G$ is not a Helly-$B_1$-EPG graph, then in each $B_1$-EPG representation of $G$, there is at least one clique that is represented as claw-clique and no as edge-clique.  Consider any $B_1$-EPG  representation of $G$  and let $K$ be a maximal clique  which is represented as a claw-clique. Assume, w.l.o.g,  $K$ is on a claw of the grid with base $[x_0, x_2]\times\{y_0\}$ and center $C = (x_1, y_0)$. Denote by  $\mathcal{P}_K$ the set of paths corresponding to the vertices of $K$. 
  By Lemma~\ref{lem:b1epgDiamondFree},  %(see~\cite{ries2009})
 %no path $P_w$ for $w\notin K$ covers 
 the grid segment $[x_0, x_2]\times\{y_0\}$ is covered only by vertices of $K$. % because $G$ is $C_4$-free
@@ -324,32 +322,32 @@ the grid segment $[x_0, x_2]\times\{y_0\}$ is covered only by vertices of $K$. %
 An \textit{independent set} of vertices is a set of vertices no two of which are adjacent.
 A graph $G$ is said to be \textit{Bipartite} if its set of vertices can be partitioned into two distinct independent sets.
  There are Bipartite graphs that are non $B_1$-EPG, for instance $K_{2,5}$ and $K_{3,3}$ (see~\cite{cohen2014}). Clearly , since
- bipartite graphs are triangle-free, any $B_1$-EPG representation of a bipartite graph is also a Helly $B_1$-EPG representation.
+ bipartite graphs are triangle-free, any $B_1$-EPG representation of a bipartite graph is also a Helly-$B_1$-EPG representation.
  A similar result (but a bit weaker) is obtained as corollary of the previous theorem. 
 
 
 \begin{coro}
-If $G$ is a Bipartite $B_1$-EPG graph then $G$ is a Helly $B_1$-EPG graph.
+If $G$ is a Bipartite $B_1$-EPG graph then $G$ is a Helly-$B_1$-EPG graph.
 \end{coro}
 
 \begin{pf}
-The Bipartite graphs are diamond-free, thus by Theorem~\ref{lem:b1DiamondFree} these graphs are Helly $B_1$-EPG graphs.
+The Bipartite graphs are diamond-free, thus by Theorem~\ref{lem:b1DiamondFree} these graphs are Helly-$B_1$-EPG graphs.
 \end{pf}
 
 A \textit{Block graph} or \textit{Clique Tree} is a type of graph in which every biconnected component (block) is a clique.
 
 \begin{coro}\label{lem:cdf}
- Block graphs are Helly $B_1$-EPG.
+ Block graphs are Helly-$B_1$ EPG.
 \end{coro}
 
 \begin{pf}
-Block graphs are known to be exactly the chordal diamond-free graphs, so by   Theorem 19 of \cite{ries2009}, all Block graphs are  $B_1$-EPG. If follows from Theorem~\ref{lem:b1DiamondFree} that all Block graphs are Helly $B_1$-EPG. 
+Block graphs are known to be exactly the chordal diamond-free graphs, so by   Theorem 19 of \cite{ries2009}, all Block graphs are  $B_1$-EPG. If follows from Theorem~\ref{lem:b1DiamondFree} that all Block graphs are Helly-$B_1$ EPG. 
  $\square$\end{pf} 
 
 A \textit{Cactus} (sometimes called a cactus tree)  graph is a connected graph in which any two  cycles have at most one vertex in common. Equivalently, it is a connected graph in which every edge belongs to at most one  cycle, or (for nontrivial cactus) in which every block (maximal subgraph without a cut-vertex) is an edge or a cycle. The family of graphs in which each component is a cactus is closed under graph minor operations. This graph family may be characterized by a single forbidden minor, the diamond graph.
  
 \begin{coro}
-Cactus graphs are  Helly $B_1$-EPG.
+Cactus graphs are  Helly-$B_1$ EPG.
 \end{coro}
 \begin{pf}
 In~\cite{cela2019monotonic}, it is proved that every Cactus graph is a monotonic $B_1$-EPG graph 
@@ -364,10 +362,10 @@ Given a graph $G$, its \textit{Line graph} $L(G)$ is a graph such that each vert
 A graph $G$ is a \textit{Line graph of a Bipartite graph} (or simply \textit{Line of Bipartite}) if and only if it
 contains no claw, no odd cycle, and no diamond as induced subgraph, \cite{harary1974line}.
 
-
+In~\cite{daniel2014b} was proved that every Line graph has a representation with at most 2 bends. We proved in the follow corollary that when restricted to the Line of Bipartite we can obtain a representation Helly and with one bend.
 
 \begin{coro}\label{coro:lineOfBipartite}
- Line of Bipartite graphs are Helly $B_1$-EPG. 
+ Line of Bipartite graphs are Helly-$B_1$ EPG. 
 \end{coro}
 
 \begin{pf}
@@ -382,19 +380,20 @@ We list in Figure~\ref{fig:exemplosDiagram} examples of graphs in each numbered 
 %This numbers correspond with the respective number item and in some cases we make a brief explanation.
 
 \begin{enumerate}[label=(\arabic*)]
-    \item $B_1$-EPG  - Helly $B_1$-EPG graphs, depicted in Figure~\ref{fig:exemplosDiagram}(a), graph $E_1$;%1
+    \item $B_1$-EPG  - Helly-$B_1$-EPG graphs, depicted in Figure~\ref{fig:exemplosDiagram}(a), graph $E_1$;%1
     
     \item Line of Bipartite graphs  - Cactus - Block - Bipartite graphs, depicted in Figure~\ref{fig:exemplosDiagram}(b), graph $E_2$;%2
-    \item Helly $B_1$-EPG - Line of Bipartite - Block - Cactus - Bipartite graphs, depicted in Figure~\ref{fig:exemplosDiagram}(c), graph $E_3$;%3
+    \item Helly-$B_1$ EPG - Line of Bipartite - Block - Cactus - Bipartite graphs, depicted in Figure~\ref{fig:exemplosDiagram}(c), graph $E_3$;%3
     \item Block $\cap$ Line of Bipartite - Cactus - Bipartite, depicted in Figure~\ref{fig:exemplosDiagram}(d), graph $E_4$;%4
     \item Block $\cap$ Line of Bipartite $\cap$  Cactus - Bipartite, depicted in Figure~\ref{fig:exemplosDiagram}(e), graph $E_5$;%5
-    \item Cactus $\cap$ Line of Bipartite - Block - Bipartite. This intersection is empty. Let $G$ be a graph that is Cactus and Line of Bipartite then $G$ is $\{$claw, odd cycle, diamond$\}$-free. But $G$ is not a Bipartite graph, then $G$ has odd cycle. Thus $G$ has at least one triangle, at least one cycle $C_n, n\geq 4$, and $G$ is a connected graph. But given a cycle $C_n, n\geq 4$, if add one vertex any adjacent to this cycle then this induce a claw, absurd with the hypothesis of $G$ is Line of Bipartite;%6
+    \item Cactus $\cap$ Line of Bipartite - Block - Bipartite. This intersection is empty. Let $G$ be a graph that is Cactus and Line of Bipartite then $G$ is $\{$claw, odd cycle, diamond$\}$-free. But $G$ is not a Bipartite graph, then $G$ has odd cycle, %. Thus $G$ has at least one triangle or at least one odd cycle $C_n, n\geq 4$, and $G$ is a connected graph. But given a cycle $C_n, n\geq 4$, if add one vertex any adjacent to this cycle then this induce a claw, 
+     absurd with the hypothesis of $G$ is Line of Bipartite;%6
     \item Bipartite $\cap$ Line of Bipartite  - Cactus - Block graphs, depicted in Figure~\ref{fig:exemplosDiagram}(f), graph $E_7$;%7
     \item Bipartite $\cap$ Line of Bipartite $\cap$  Cactus - Block graphs, depicted in Figure~\ref{fig:exemplosDiagram}(g), graph $E_8$;%8
     \item Bipartite $\cap$ Line of Bipartite $\cap$  Cactus $\cap$ Block graphs, depicted in Figure~\ref{fig:exemplosDiagram}(h), graph $E_9$;%9
   \item Bipartite $\cap$  Cactus $\cap$ Block - Line of Bipartite graphs, depicted in Figure~\ref{fig:exemplosDiagram}(i), graph $E_{10}$;%10
     \item Bipartite  $\cap$  Cactus - Block -  Line of Bipartite graphs, depicted in Figure~\ref{fig:exemplosDiagram}(j), graph $E_{11}$;%11
-     \item Bipartite $\cap$ Helly $B_1$-EPG - Cactus - Block -  Line of Bipartite graphs, depicted in Figure~\ref{fig:exemplosDiagram}(k), graph $E_{12}$;%12
+     \item Bipartite $\cap$ Helly-$B_1$ EPG - Cactus - Block -  Line of Bipartite graphs, depicted in Figure~\ref{fig:exemplosDiagram}(k), graph $E_{12}$;%12
       \item Bipartite - $B_1$-EPG graphs, depicted in Figure~\ref{fig:exemplosDiagram}(l), graph $E_{13}$;%13
       \item Block - Bipartite - Line of Bipartite  - Cactus graphs, depicted in Figure~\ref{fig:exemplosDiagram}(m), graph $E_{14}$;%14
  
@@ -443,19 +442,10 @@ Now, in each one of the graphs $F_{11}, F_{12}, F_{13}, F_{14}$, $F_{15}$ and $F
 
 
 
-\la{DE AQUI EN ADELANTE HAY MUCHO POR ARREGLAR, ORDEN, NOTACION, ETC, ESTOY TRABAJANDO EN ESO}
-
-
-
-XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
-% \begin{defi}
   A \textit{satellite} of a clique $K$ is a vertex $v$ such that $B_v=N(v)\cap K$ is a 
 nonempty proper subset of $K$. The set $B_v$ is called the \textit{base} of $v$ and it is said \textit{minimal} if no other
 base of a satellite of $K$ is properly contained in $B_v$, see~\cite{alcon2010necessary}.
-% \end{defi}
 
-
-% \begin{defi}
  Let $I=[q_1,q_2]$ be the grid interval defined by the intersection $\displaystyle \cap_{v\in K}P_v$, where $K$
 is an edge-clique of a graph $G$. For any $v\in K$, by removing the interval $(q_1,q_2)$, the path $P_v$
 is split into two \textit{disjoint parts}: \textit{part 1}  containing $q_1$, and  \textit{part 2}  containing $q_2$.
@@ -466,23 +456,41 @@ to another vertex $v'$ of $K$, then   $P_w$ intersects $P_v$ and $P_{v'}$ on
 a same side of $K$. It allow us to divide the satellites of $K$ into two \textit{disjoint
 groups}, the ones on  \textit{side 1} of $K$ and the ones on \textit{side 2}.
 
+%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\begin{fac} \label{f:between}Let $e_1$, $e_2$ and $e_3$  be three distinct edges of a  one-bend path $P$, and assume that $e_2$ is between $e_1$ and $e_3$ on $P$. If $P_1$ and $P_3$ are one-bend paths such that: $P_1$ contains $e_1$, $P_3$ contains $e_3$, and  $P_1$ and $P_3$ intersect in at least one edge, then $P_1$ or $P_3$ contains $e_2$.
+\end{fac}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
 \begin{lema}\label{coro:3Cliques1EdgeClique}
 Let $G$ be a graph whose vertex set  can be partitioned into a non trivial clique $K$ and an independent set $I=\{w_1,w_2,w_3\}$, such that each vertex of $K$ is adjacent to each vertex of $I$. Let $K_i$ be each maximal clique  $K_i = K \cup w_i$, with $1 \leq i \leq 3$.
-In any $B_1$-EPG representation of $G$, one of those cliques, say $K_2$, is an edge clique, and its two  satellites $w_1$ and $w_3$ are
+In any $B_1$-EPG representation of $G$, one of those cliques, we say $K_2$, is an edge-clique, and its two  satellites $w_1$ and $w_3$ are
 on different sides.
 \end{lema}
 
 \begin{pf}
-By Lemma~\ref{lem:3cliquesNotClaw} the maximal cliques $K_1, K_2$ and $K_3$ can not be represented simultaneously as claw-cliques, thus at least one is edge-clique, we say $K_2$. Since $G$ is a Chordal graph, then when $K_1$ and $K_3$ are represented as claw-cliques they have  distinct centers.
-Given $\mathcal{P}_K$ the set of paths corresponding to the vertices of $K$. 
-Each claw-clique $K_i$ has at least one path $P_k \in \mathcal{P}_K$ that bend in this claw-clique. If all paths $P_k \in \mathcal{P}_K$ bend in some claw-clique then these paths can not bend in other claw-clique, i.e. if all paths $P_k \in \mathcal{P}_K$ bend in some claw-clique others cliques will be edge-clique and the lemma holds. So, consider $K_1$ and $K_3$ as claw-cliques.
-%Maybe that at least one path $P_k \in \mathcal{P}_K$ has bend and at least one another different path $P_k \in \mathcal{P}_K$ has no bend in each $K_i$. In this way, 
-In each claw-clique $K_1, K_3$, either all paths $P_k \in \mathcal{P}_K$ intersect in some segment between center of claw-clique and right or left part of base, or then there is only one point of intersection of all paths (center of this claw, obviously) and there is no a $B_1$-EPG representation to $G$. Consider the first situation,  w.l.g. we say that $K_1$ has horizontal base in interval $(q_1,q_2)$ and that all paths $P_k \in \mathcal{P}_K$ intersect  at right of $q_2$. Then, $K_3$ with base in interval $(q_1'',q_2'')$ has same condition but with intersection of all paths at left of $q_1''$. Now we have a problem, if edge-clique $K_2$ is at left of the center of the $K_1$ then there is a path $P_k \in \mathcal{P}_K$ that bend in the center of $K_1$ such that this path is not in $K_2$, the same is true if $K_2$ is at right of $K_3$. % with base in interval $(q_1',q_2')$ the paths $P_k \in \mathcal{P}_K$ can not participate simultaneously to the right of the base of cliques $K_1$ and $K_2$, nor to the left of cliques $K_2$ and $K_3$. 
-Therefore, in this construction $K_2$ must be between the center of $K_1$ and $K_3$. 
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+Let $v$ be any vertex of $K$. For $i\in \{1,2,3\}$, let $I_{v,i}$ be the subpath of $P_v$
+defined to be $P_v\cap P_{w_i}$ (we  consider paths as edge sets). Clearly, the three
+subpaths are pairwise edge-disjoint. Thus, w.l.o.g., by symmetry, we can assume that
+$I_{v,2}$ is between  $I_{v,1}$ and $I_{v,3}$. We claim that the clique $K_2$ is an edge-clique.
+Indeed, if it not, % then $P_4$ contains no edge of the subpath $I_{1,4}$. And,
+by Lemma \ref{lem:3cliquesNotClaw}, we can assume, w.l.o.g., that $K_1$ is an edge-clique, which implies that there is an edge of $I_{v,1}$ covered by all the vertices of $K_1$.  Let $q$ be the center of the claw corresponding to the clique $K_2$; clearly $q$ is a point of $I_{v,2 }$. Since all the vertices of $K$ must contain $q$, but not all them can cover a same
+edge  of  $I_{v,2}$, we have that $q$ must be the extreme of  $I_{v,2}$ closest to  $I_{v,1}$. Therefore, if we let $e_1$ and $e_2$ be the two edges of $P_v$ incident on $q$ ($e_2$ the one contained in $I_{v,2}$),
+we have that  all the vertices of $K$
+contain  $e_1$ and at least one vertex of $K$, say $w$,  does not contain $e_2$. Observe this contradicts Fact \ref{f:between} (let $P_1=P_w$, $P_3=P_{w_3}$ and $e_3$ any edge of $I_{v,3}$. We conclude that $K_2$ is an edge-clique; since $w_1$ and $w_3$ are satellites of $K_2$ the proof is complete. 
+$\square$
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% By Lemma~\ref{lem:3cliquesNotClaw} the maximal cliques $K_1, K_2$ and $K_3$ can not be represented simultaneously as claw-cliques, thus at least one is edge-clique, we say $K_2$. Since $G$ is a Chordal graph, then when $K_1$ and $K_3$ are represented as claw-cliques they have  distinct centers.
+% Given $\mathcal{P}_K$ the set of paths corresponding to the vertices of $K$. 
+% Each claw-clique $K_i$ has at least one path $P_k \in \mathcal{P}_K$ that bend in this claw-clique. If all paths $P_k \in \mathcal{P}_K$ bend in some claw-clique then these paths can not bend in other claw-clique, i.e. if all paths $P_k \in \mathcal{P}_K$ bend in some claw-clique others cliques will be edge-clique and the lemma holds. So, consider $K_1$ and $K_3$ as claw-cliques.
+% In each claw-clique $K_1, K_3$, either all paths $P_k \in \mathcal{P}_K$ intersect in some segment between center of claw-clique and right or left part of base, or then there is only one point of intersection of all paths (center of this claw, obviously) and there is no a $B_1$-EPG representation to $G$. Consider the first situation,  w.l.g. we say that $K_1$ has horizontal base in interval $(q_1,q_2)$ and that all paths $P_k \in \mathcal{P}_K$ intersect  at right of $q_2$. Then, $K_3$ with base in interval $(q_1'',q_2'')$ has same condition but with intersection of all paths at left of $q_1''$. Now we have a problem, if edge-clique $K_2$ is at left of the center of the $K_1$ then there is a path $P_k \in \mathcal{P}_K$ that bend in the center of $K_1$ such that this path is not in $K_2$, the same is true if $K_2$ is at right of $K_3$. 
+% Therefore, in this construction $K_2$ must be between the center of $K_1$ and $K_3$. 
 
-Thus there is always an edge-clique $K_i$ located between two satellites $w_i$. $\square$
+% Thus there is always an edge-clique $K_i$ located between two satellites $w_i$. 
 \end{pf}
 
+
+\la{Continuar aqui}
 
 %-----------------------------------------------------
 \begin{lema} \label{lem:obstrucaoCentro}
@@ -495,6 +503,11 @@ are on the same side of $K_2$.
 \begin{pf}
 By Lemma~\ref{lem:3cliquesNotClaw} the maximal cliques $K_1, K_2$ and $K_3$ can not be represented simultaneously as claw-clique and by Lemma~\ref{coro:3Cliques1EdgeClique} there is one edge-clique $K_i$ whose two paths representing satellites of the independent set $I$ are in different sides of  $K_i$. Thus, if $K_2$ is represented as claw-clique then $K_1$ and $K_3$ are on the same side of $K_2$.
 
+
+
+
+XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
+% \begin{defi}
 Let $I=[q_1,q_2]$ be the interval of the edge-clique $K_2$.  If $K_2$ is an edge-clique then by contradiction suppose that the satellites $1$ and $3$ are in disjoint groups relative to edge-clique $K_2$. Without loss of generality we can suppose that $P_1$ is at left of $q_1$ and $P_3$ is at right of $q_2$. The path $P_n$ can not intersect $P_b$ and $P_2$ on $I$ because $P_n$ must not intersect $P_a$. On the other hand, the cliques $K_1$ and $K_3$ do not allow that the path $P_n$ intersects $P_b$ and $P_2$ out of interval $I$ because $P_n$ must not intersect $P_1$ or $P_3$.
 
 %Let $C_{B'}$ be the subgraph obtained by $C_{B}-\{n\}$ and $R'$ its $B_1$-EPG representation, where the satellites $1$ and $3$ are in disjoint groups relative to edge-clique $K_2$. 
@@ -536,8 +549,6 @@ The graph $F_7$ (see Figure~\ref{fig:16proibidos}(g)) is a graph that can be obt
 
 XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
 
-\la{\begin{fac} \label{f:between}Let $e_1$, $e_2$ and $e_3$  be three distinct edges of a  one-bend path $P$, and assume that $e_2$ is between $e_1$ and $e_3$ on $P$. If $P'$ and $P''$ are one-bend paths such that: $P'$ contains $e_1$, $P''$ contains $e_3$, and  $P'$ and $P''$ intersect in at least one edge, then $P'$ or $P''$ contains $e_2$.
-\end{fac}}
 
 **********************************************************
 \la{
@@ -549,7 +560,7 @@ defined to be $P_1\cap P_i$ (we  consider paths as edge sets). Clearly, the thre
 subpaths are pairwise edge-disjoint. Thus, w.l.o.g., by symmetry, we can assume that
 $I_{1,4}$ is between  $I_{1,3}$ and $I_{1,5}$. We claim that the clique $\{1,2,4\}$ is an edge-clique.
 Indeed, if it not, % then $P_4$ contains no edge of the subpath $I_{1,4}$. And,
-by Lemma \ref{lem:3cliquesNotClaw}, we can assume, w.l.o.g., that $\{1,2,3\}$ is an edge clique, which implies that $P_2$ contains at least an edge of $I_{1,3}$. Since $P_5$
+by Lemma \ref{lem:3cliquesNotClaw}, we can assume, w.l.o.g., that $\{1,2,3\}$ is an edge-clique, which implies that $P_2$ contains at least an edge of $I_{1,3}$. Since $P_5$
 contains an edge of $I_{1,5}$ and cannot intersect $P_4$, by Fact \ref{f:between}, $P_2$  contains an edge of $I_{1,4}$, which implies that $\{1,2,4\}$ is an edge-clique, as we wanted to proved.\\
 Now, since  $\{1,2,4\}$ is an edge-clique and $P_2$ has to intersect $P_3$ on one side and $P_5$ on the other side of $I_{1,4}$,
 we have that $I_{1,4}$ must be contained in $P_2$, which makes impossible the existences of a path  $P_7$ intersecting 4 and 2, but not 1. 
@@ -564,7 +575,7 @@ The graph $F_7$ on Figure~\ref{fig:16proibidos}(g) is not   $B_1$-EPG.
 defined to be $P_1\cap P_i$ (we  consider paths as edge sets). Clearly, the three
 subpaths are pairwise edge-disjoint. Thus, w.l.o.g., by symmetry, we can assume that
 $I_{1,5}$ is between  $I_{1,4}$ and $I_{1,6}$. We claim that the clique $\{1,2,3,5\}$ is an edge-clique, see Lemma~\ref{lem:3cliquesNotClaw} and Lemma~\ref{coro:3Cliques1EdgeClique}.
-We can assume, w.l.o.g., that $\{1,2,3,4\}$ is an edge clique, which implies that $P_2$ and $P_3$ contain at least an edge of $I_{1,4}$. Since $P_6$
+We can assume, w.l.o.g., that $\{1,2,3,4\}$ is an edge-clique, which implies that $P_2$ and $P_3$ contain at least an edge of $I_{1,4}$. Since $P_6$
 contains an edge of $I_{1,6}$ and cannot intersect $P_5$, by Fact \ref{f:between}, $P_2$ and $P_3$  contain an edge of $I_{1,5}$, which implies that $\{1,2,3.5\}$ is an edge-clique, as we wanted to proved.\\
 Now, since  $\{1,2,3,5\}$ is an edge-clique and $P_2$ and $P_3$ have that to intersect $P_4$ on one side and $P_6$ on the other side of $I_{1,5}$,
 we have that $I_{1,5}$ must be contained in $P_2$ and $P_3$, which makes impossible the existences of a path  $P_8$ intersecting $P_5$ and $P_2$, but not $P_1$ and $P_3$. 
@@ -697,11 +708,11 @@ In this paper, we considered graphs of intersection of paths, in particular $B_1
   In addition, combining the results of~\cite{alcon2014recognizing,Asinowski2009, golumbic2009} and some proves  presented in this paper, we demonstrate by  Theorems~\ref{teo:chordalB1inVPT} and~\ref{teo:b1epgept} that Chordal $B_1$-EPG graphs are simultaneously contained in the classes of VPT and EPT graphs.  
  
  
-%If on the one hand some few graph classes are known to be properly contained in $B_1$-EPG, for instance the $L$-shaped paths graphs see~\cite{cameron2016edge},  and the recognition time for $B_1$-EPG graphs in general is $NP$-complete. On the other hand, in the course of this section we also present some subclasses of Helly $B_1$-EPG for which the recognition problem is polynomial.
+%If on the one hand some few graph classes are known to be properly contained in $B_1$-EPG, for instance the $L$-shaped paths graphs see~\cite{cameron2016edge},  and the recognition time for $B_1$-EPG graphs in general is $NP$-complete. On the other hand, in the course of this section we also present some subclasses of Helly-$B_1$ EPG for which the recognition problem is polynomial.
 
 Asinowski and Ries present in~\cite{ries2009} some characterization for special cases of Split $B_1$-EPG graphs, when the stable set has size three or when the clique has size three. Observe that the graphs $F_2, F_{11}, F_{13}, F_{14}, F_{15}$, given in Figure~\ref{fig:16proibidos}, are Split but we used another strategy to prove that they are not $B_1$-EPG graphs. So one question is pertinent: Can we characterize Split graphs in general based in results of this paper? 
 
-We would like to know the relationship of another graph subclasses of $B_1$-EPG with EPT and VPT graphs. If given an  input graph $G$ that is an instance of $B_1$-EPG  Weakly Chordal,  Distance-hereditary or any specific subclass, what is the relationship of $G$ with the class of paths in trees? For those same classes of graphs, what happens when we demand that the representations be Helly $B_1$-EPG?
+We would like to know the relationship of another graph subclasses of $B_1$-EPG with EPT and VPT graphs. If given an  input graph $G$ that is an instance of $B_1$-EPG  Weakly Chordal,  Distance-hereditary or any specific subclass, what is the relationship of $G$ with the class of paths in trees? For those same classes of graphs, what happens when we demand that the representations be Helly-$B_1$ EPG?
 
 
  
